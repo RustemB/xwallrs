@@ -1,0 +1,11 @@
+[package]
+name = "xwallrs"
+description = "Library for X11 to set wallpaper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+x11 = "2.19.1"
+libc = "0.2.103"
